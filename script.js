@@ -11,7 +11,7 @@ fetch("./data.json")
     updateUI(data);
   })
   .catch((err) => {
-    console.log(err);
+    console.error(err);
   });
 
   const updateUI = (data) => {
