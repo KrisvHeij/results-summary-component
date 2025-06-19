@@ -4,7 +4,7 @@ const memoryScore = document.getElementById("memory-score");
 const verbalScore = document.getElementById("verbal-score");
 const visualScore = document.getElementById("visual-score");
 
-fetch("../data.json")
+fetch("./data.json")
   .then((res) => res.json())
   .then((data) => {
     console.log(data)
